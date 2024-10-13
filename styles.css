@@ -98,3 +98,32 @@
 .email-date {
     color: #888;
 }
+/* Email Item Styling */
+.email-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+    border-bottom: 1px solid #eee;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.email-item:hover {
+    background-color: #f0f8ff;
+}
+
+.email-sender {
+    font-weight: bold;
+    width: 30%;
+}
+
+.email-subject {
+    width: 50%;
+    color: #555;
+}
+
+.email-date {
+    width: 20%;
+    text-align: right;
+    color: #888;
+}
